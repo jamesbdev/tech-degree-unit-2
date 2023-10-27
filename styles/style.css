@@ -54,3 +54,7 @@ section .profile-image {
     color: #505050
 }
 
+section img {
+    width: 72%;
+}
+
