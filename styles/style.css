@@ -77,10 +77,17 @@ section img {
   margin: 0 auto 2rem;
 }
 
-footer .flex-container {
+.contact .flex-container {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 2rem;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    border-top: 1px solid grey;
 }
 
