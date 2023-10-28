@@ -24,13 +24,17 @@ h2 {
 header nav ul {
     display: flex;
     flex-direction: column;
-    list-style-type: none;
     justify-content: center;
     align-items: center;
     gap: 0.5rem;
     padding: 0;
     margin-top: 3rem;
-}   
+    background-color: #F5F5F5;
+} 
+
+header nav ul, footer nav ul {
+    list-style-type: none;
+}
 
 header nav li {
     background-color: white;
@@ -115,6 +119,10 @@ footer {
     padding-top: 0.5rem;
 }
 
+footer .tablet-link {
+    display: none;
+}
+
 .contact a, footer a {
     text-decoration: none;
     color: #383838;
@@ -155,6 +163,26 @@ body {
     flex-grow: 1;
     width: 45%;
     margin-top: 2rem;
+    justify-content: flex-start;
+}
+
+footer nav {
+    display: flex;
+    gap: 1rem;
+}
+
+footer .mobile-link {
+    display: none;
+}
+
+footer .tablet-link {
+    display: inline;
+}
+
+footer nav ul {
+    display: flex;
+    gap: 1rem;
+    padding: 0;
 }
 
 
