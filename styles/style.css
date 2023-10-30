@@ -98,7 +98,7 @@ section img {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .contact {
@@ -136,8 +136,8 @@ footer {
     margin-top: 2rem;
     border-top: 1px solid darkgrey;
     font-weight: 700;
-    padding-bottom: 2rem;
-    padding-top: 0.5rem;
+    padding-bottom: 3rem;
+    padding-top: 1rem;
 }
 
 footer .tablet-link {
@@ -158,11 +158,13 @@ footer a {
         display: flex;
         flex-direction: row-reverse;
         gap: 1rem;
+        /* height: 400px; */
     }
 
 .student-profile p {
     text-align: left;
     flex-grow: 2;
+    margin-top: 0;
 }
 
 header nav ul {
@@ -185,7 +187,7 @@ body {
 .portfolio-section {
     flex-grow: 1;
     width: 45%;
-    margin-top: 2rem;
+    margin-top: 0;
     justify-content: flex-start;
 }
 
@@ -209,7 +211,7 @@ footer .tablet-link {
 
 footer nav ul {
     display: flex;
-    gap: 1rem;
+    gap: 1.5rem;
     padding: 0;
 }
 
@@ -218,7 +220,9 @@ header nav li {
 }
 
 .student-profile .profile-image {
-   width: 70%;
+   width: 43%;
+   height: auto;
+   margin-bottom: 3rem;
 }
 
 header p {
@@ -226,7 +230,7 @@ header p {
 }
 
 .contact p {
-    width: 80%;
+    width: 63%;
 }
 
 
