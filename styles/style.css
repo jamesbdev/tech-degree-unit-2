@@ -58,6 +58,16 @@ header nav ul li a {
     font-weight: 700;
 }
 
+
+nav ul li a:hover {
+    border-bottom: 2px solid #ee7b7b;
+}
+
+nav ul li a {
+    padding-bottom: 0.3rem;
+}
+
+
 .profile-image {
     width: 70%;
     margin: 0 auto;
@@ -107,6 +117,7 @@ section img {
     01rem: 1rem;
     flex-wrap: wrap;
     flex-direction: row;
+    gap: 1rem;
 }
 
 .skill-container {
@@ -262,6 +273,7 @@ header p {
 .icon-container {
     width: 70%;
     margin: 0 auto;
+    gap: 3rem;
 }
 
 
