@@ -4,6 +4,7 @@ body {
   font-size: 16px;
   background-color: #F5F5F5;
   margin: 0;
+  padding: 0.5rem;
 }
 
 h1 {
@@ -82,6 +83,10 @@ section img {
   margin: 0 auto 2rem;
 }
 
+.portfolio-section p {
+    text-align: center;
+}
+
 .contact .flex-container {
     display: flex;
     justify-content: center;
@@ -94,10 +99,13 @@ section img {
     display: flex;
     flex-direction: column;
     margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
 }
 
 .contact p {
     text-align: center;
+    /* width: 70%; */
 }
 
 .contact a {
@@ -171,7 +179,7 @@ body {
 
 .portfolio-section p {
     text-align: center;
-    max-width: 80%;
+    width: 80%;
 }
 
 footer nav {
@@ -205,6 +213,10 @@ header p {
     font-size: 18px;
 }
 
+.contact p {
+    width: 80%;
+}
+
 
 }
 
@@ -221,7 +233,7 @@ header p {
     }
 
     body {
-        padding: 3rem ;
+        padding: 4rem;
     }
 
     .student-profile .profile-image {
