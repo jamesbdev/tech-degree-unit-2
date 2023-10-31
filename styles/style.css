@@ -71,7 +71,6 @@ nav ul li a {
     padding-bottom: 0.3rem;
 }
 
-
 .profile-image {
     width: 70%;
     margin: 0 auto;
@@ -89,11 +88,11 @@ nav ul li a {
     color: #505050
 }
 
-section img {
+article img {
     width: 100%;
 }
 
-.portfolio-section {
+.portfolio-article {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -102,7 +101,7 @@ section img {
   margin: 0 auto 2rem;
 }
 
-.portfolio-section p {
+.portfolio-article p {
     text-align: center;
     margin-top: 0;
     margin-bottom: 0;
@@ -223,14 +222,14 @@ body {
     gap: 1.2rem;
 }
 
-.portfolio-section {
+.portfolio-article {
     flex-grow: 1;
     width: 45%;
     margin-top: 0;
     justify-content: flex-start;
 }
 
-.portfolio-section p {
+.portfolio-article p {
     text-align: center;
     width: 80%;
 }
@@ -306,7 +305,7 @@ header p {
         width: 100%;
      }
 
-     .portfolio-section {
+     .portfolio-article {
         width: 30%;
      }
 
